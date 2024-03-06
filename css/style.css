@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(140, 216, 192);
+  font-family: "Arial", sans-serif;
+}
+
+.temperature-converter {
+  background-color: rgb(169, 233, 212);
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  /* margin: 100px auto; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.temperature-converter .input-group {
+  margin-bottom: 10px;
+}
+
+.temperature-converter .input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+.temperature-converter .input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid grey;
+  box-sizing: border-box;
+  background-color: rgb(169, 233, 212);;
+}
+
+.temperature-converter .input-group input::-moz-placeholder {
+  color: light #97e9a5;
+}
+
+.temperature-converter .input-group input::placeholder {
+  color: light #97e9a5;
+}

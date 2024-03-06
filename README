@@ -1,0 +1,13 @@
+The first line of the code uses the getElementById() method to select the HTML element with the id "celsius". This is likely an input field where the user can enter a temperature in Celsius.
+
+The second line adds an event listener to the "celsius" input field. The event listener is triggered every time the user inputs a new value into the field. The event listener listens for the "input" event, which is triggered every time the user types, pastes, or modifies the value of the input field in any way.
+
+The third line of the code defines an anonymous function that is executed every time the event listener is triggered. The function takes an event object (e) as an argument.
+
+The fourth line of the code uses parseFloat() to convert the value of the "celsius" input field to a floating point number. This is necessary because the temperature values are likely to be decimal numbers.
+
+The next two lines of the code calculate the equivalent Fahrenheit and Kelvin temperatures based on the Celsius temperature. The conversion formulas are applied to the celsius variable, which contains the value of the "celsius" input field.
+
+The toFixed() method is used to round the calculated temperatures to two decimal places. This is often used to display temperature values with a high degree of precision.
+
+Finally, the last two lines of the code set the value of the "fahrenheit" and "kelvin" input fields to the calculated Fahrenheit and Kelvin temperatures, respectively. This allows the user to see the equivalent temperatures in real-time as they modify the Celsius temperature.
